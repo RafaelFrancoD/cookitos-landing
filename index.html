@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookitos - Biscoitos Artesanais Irresistíveis</title>
+    <meta name="description" content="Descubra os deliciosos Cookitos artesanais com sabores únicos: Nutella, Doce de Leite e Chocolate Amargo. Qualidade premium e sabor incomparável.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="images/logo-circular.jpg" alt="Cookitos Logo" class="logo-img">
+                    <span class="logo-text">Cookitos</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Carousel -->
+    <section id="inicio" class="hero">
+        <div class="hero-carousel">
+            <div class="carousel-container" id="carousel-container">
+                <!-- Imagens serão carregadas aqui pelo JavaScript -->
+            </div>
+            <div class="carousel-nav">
+                <button class="carousel-btn prev" id="prev-btn">❮</button>
+                <button class="carousel-btn next" id="next-btn">❯</button>
+            </div>
+            <div class="carousel-dots" id="carousel-dots">
+                <!-- Dots serão carregados aqui pelo JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Nova Seção para o Texto Dinâmico -->
+    <section id="carousel-text-section" class="carousel-text-section">
+        <div id="carousel-text-display" class="carousel-text-display">
+            <!-- O texto dinâmico será inserido aqui pelo JavaScript -->
+        </div>
+    </section>
+
+    <!-- Produtos Section -->
+    <section id="produtos" class="produtos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Sabores Irresistíveis</h2>
+                <p>Cada Cookito é uma obra de arte culinária, criada com ingredientes selecionados e técnicas artesanais</p>
+            </div>
+            <div class="produtos-grid">
+                <div class="produto-card">
+                    <div class="produto-image">
+                        <img src="images/sabor nutella.jpg" alt="Cookito Nutella" loading="lazy">
+                        <div class="produto-hover-text">
+                            <p>Esse cookie é pra quem acredita em coisas intensas. Massa amanteigada. Nutella derretendo no meio. E aquela explosão que te faz fechar os olhos na primeira mordida</p>
+                        </div>
+                    </div>
+                    <div class="produto-info-hover-effect">
+                        <h3>Cookito Nutella</h3>
+                    </div>
+                </div>
+
+                <div class="produto-card">
+                    <div class="produto-image">
+                        <img src="images/sabor doce de leitejpg.jpg" alt="Cookito Doce de Leite" loading="lazy">
+                        <div class="produto-hover-text">
+                            <p>Doce de Leite pra nenhum brasileiro botar defeito. Zero miséria no recheio.
+É doce de leite MESMO — cremoso, generoso e nacional com orgulho.
+Combinação perfeita com a massa amanteigada e crocante da Cookitos.</p>
+                        </div>
+                    </div>
+                    <div class="produto-info-hover-effect">
+                        <h3>Cookito Doce de Leite</h3>
+                    </div>
+                </div>
+
+                <div class="produto-card">
+                    <div class="produto-image">
+                        <img src="images/cookito-chocolate-amargo.png" alt="Cookito Chocolate Amargo" loading="lazy">
+                        <div class="produto-hover-text">
+                            <p>Esse Cookie não é pra Qualquer um. È chocolate Amargo .Amargo na medida, intenso como um amor não correspondido.
+Feito com cacau de verdade, pra quem tem paladar afiado e não se contenta com o óbvio.</p>
+                        </div>
+                    </div>
+                    <div class="produto-info-hover-effect">
+                        <h3>Cookito Chocolate Amargo</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefícios Section -->
+    <section class="beneficios">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title-animation">Por que escolher nossos Cookitos?</h2>
+            </div>
+            <div class="beneficios-grid">
+                <div class="beneficio-card">
+                    <div class="beneficio-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Ingredientes Premium</h3>
+                    <p>Utilizamos apenas ingredientes frescos e de alta qualidade, selecionados cuidadosamente para garantir o melhor sabor.</p>
+                </div>
+                <div class="beneficio-card">
+                    <div class="beneficio-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Feito com Amor</h3>
+                    <p>Cada Cookito é preparado artesanalmente com muito carinho e atenção aos detalhes, garantindo qualidade única.</p>
+                </div>
+                <div class="beneficio-card">
+                    <div class="beneficio-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Sabor Incomparável</h3>
+                    <p>Nossa receita exclusiva proporciona uma textura perfeita e sabores que despertam os sentidos a cada mordida.</p>
+                </div>
+                <div class="beneficio-card">
+                    <div class="beneficio-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Variedade Única</h3>
+                    <p>Oferecemos sabores cuidadosamente desenvolvidos para agradar todos os paladares, do clássico ao sofisticado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nós Section -->
+    <section id="sobre" class="sobre-nos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre a Cookitos</h2>
+                <p>Cookies com atitude. Feitos pra viciar.</p>
+            </div>
+            <div class="sobre-content">
+                <div class="sobre-intro-wrapper">
+                    <img src="images/mini homens.png" alt="Mini homens construindo cookies" class="sobre-imagem">
+                    <div class="sobre-texto">
+                        <p>A Cookitos nasceu de um vício real: criar cookies absurdamente bons — com massa amanteigada, recheio que transborda e sabor que não pede desculpa.</p>
+                        <p>Cada etapa do processo é feita com intenção, cuidado e zero moderação.</p>
+                    </div>
+                </div>
+                <div class="sobre-timeline">
+                    <h3>Linha do Tempo da Delícia</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-shopping-basket"></i></div>
+                        <div class="timeline-content">
+                            <h4>1. Seleção dos Ingredientes</h4>
+                            <p>Manteiga de verdade, chocolates premium e recheios cremosos. Só entra o que faz diferença no sabor.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-blender"></i></div>
+                        <div class="timeline-content">
+                            <h4>2. Preparo da Massa</h4>
+                            <p>Mistura artesanal, em pequenos lotes. Sem pressa, com forno industrial a textura começa aqui.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-fill-drip"></i></div>
+                        <div class="timeline-content">
+                            <h4>3. Recheio sem Miséria</h4>
+                            <p>Nutella, doce de leite, chocolate amargo… Recheio de verdade, no centro de tudo.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-hand-paper"></i></div>
+                        <div class="timeline-content">
+                            <h4>4. Modelagem Manual</h4>
+                            <p>Cada cookie é moldado à mão, garantindo aquele visual robusto, caseiro e apetitoso.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-fire"></i></div>
+                        <div class="timeline-content">
+                            <h4>5. Forno no Ponto Certo</h4>
+                            <p>Crocantes por fora, macios por dentro. Equilíbrio perfeito entre textura e sabor.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-box-open"></i></div>
+                        <div class="timeline-content">
+                            <h4>6. Embalagem com Carinho</h4>
+                            <p>Eles esfriam, são embalados com cuidado e seguem prontos pra chegar até você com sabor e frescor garantido.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sobre-footer">
+                <h3>✨ Cookitos. Seu novo vício tem nome.</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prova Social Section -->
+    <section class="testemunhos">
+        <div class="container">
+            <div class="section-header">
+                <h2>O que nossos clientes dizem</h2>
+            </div>
+            <div class="testemunhos-grid" id="testemunhos-grid">
+                <div class="testemunho-card">
+                    <div class="testemunho-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Os Cookitos são simplesmente incríveis! O sabor de Nutella é viciante, não consigo parar de comer."</p>
+                    <div class="testemunho-author">
+                        <strong>Maria Silva</strong>
+                        <span>Cliente Satisfeita</span>
+                    </div>
+                </div>
+                <div class="testemunho-card">
+                    <div class="testemunho-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Qualidade excepcional! O doce de leite me lembra a infância. Recomendo para toda a família."</p>
+                    <div class="testemunho-author">
+                        <strong>João Santos</strong>
+                        <span>Cliente Fiel</span>
+                    </div>
+                </div>
+                <div class="testemunho-card">
+                    <div class="testemunho-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"O chocolate amargo é perfeito! Sabor intenso e qualidade premium. Melhor biscoito que já provei."</p>
+                    <div class="testemunho-author">
+                        <strong>Ana Costa</strong>
+                        <span>Amante de Chocolate</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formulário de Avaliação -->
+            <div class="avaliacao-form-container">
+                <h3>Deixe sua Avaliação</h3>
+                <form id="avaliacao-form">
+                    <div class="form-group">
+                        <input type="text" id="autor-nome" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="autor-opiniao" placeholder="Sua opinião sobre os Cookitos..." rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Sua nota:</label>
+                        <div class="rating-stars">
+                            <i class="far fa-star" data-value="1"></i>
+                            <i class="far fa-star" data-value="2"></i>
+                            <i class="far fa-star" data-value="3"></i>
+                            <i class="far fa-star" data-value="4"></i>
+                            <i class="far fa-star" data-value="5"></i>
+                        </div>
+                        <input type="hidden" id="autor-rating" value="0">
+                    </div>
+                    <button type="submit" class="btn-submit">Enviar Avaliação</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Perguntas Frequentes</h2>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Qual o prazo de validade dos Cookitos?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Nossos Cookitos têm validade de 7 dias quando armazenados em local seco e arejado, em embalagem fechada.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Vocês fazem entrega?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim! Fazemos entregas em Rio Preto, para mais informações sobre valores de frete entre em contato conosco.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Os Cookitos contêm glúten?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim, nossos Cookitos contêm glúten, lactose e açucares.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Posso fazer encomendas personalizadas?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Claro! Aceitamos encomendas personalizadas para eventos especiais. Entre em contato conosco para mais detalhes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <p>Tem alguma dúvida ou quer fazer um pedido especial? Fale conosco!</p>
+            </div>
+            <div class="contato-content">
+                <div class="contato-info">
+                    <div class="contato-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefone</h3>
+                            <p>(17) 99151-9103</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <a href="https://www.instagram.com/cookitooos?igsh=MXFrOGo3a3k5M3Nrdw==" target="_blank" rel="noopener noreferrer" class="social-link-contato">
+                            <i class="fab fa-instagram"></i>
+                            <div>
+                                <h3>Instagram</h3>
+                                <p>@cookitooos</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <form class="contato-form">
+                    <div class="form-group">
+                        <input type="text" id="contato-nome" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="contato-telefone" placeholder="Seu Telefone">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="contato-mensagem" placeholder="Sua Mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🍪 Cookitos</h3>
+                    <p>Biscoitos artesanais que despertam seus sentidos. Qualidade premium e sabor incomparável em cada mordida.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/cookitooos?igsh=MXFrOGo3a3k5M3Nrdw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/5517991519103" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Informações</h4>
+                    <ul>
+                        <li><a href="javascript:void(0);">Política de Privacidade</a></li>
+                        <li><a href="javascript:void(0);">Termos de Uso</a></li>
+                        <li><a href="javascript:void(0);">Política de Entrega</a></li>
+                        <li><a href="javascript:void(0);">Trocas e Devoluções</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> (17) 99151-9103</li>
+                    </ul>
+                   
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cookitos. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
