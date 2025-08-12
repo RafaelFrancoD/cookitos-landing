@@ -1024,6 +1024,11 @@ body {
         font-size: 2rem;
     }
     
+    .section-title-animation {
+        opacity: 1;
+        transform: scale(1);
+    }
+    
     .contato-content {
         grid-template-columns: 1fr;
         gap: 2rem;
