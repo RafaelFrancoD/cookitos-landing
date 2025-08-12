@@ -1044,6 +1044,58 @@ body {
     .promocao-content h2 {
         font-size: 2rem;
     }
+
+    .nav-menu {
+        display: none; /* Mantém oculto por padrão */
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(74, 44, 42, 0.95); /* Fundo escuro com transparência */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        transform: translateX(100%); /* Esconde o menu para a direita */
+        transition: transform 0.5s ease-in-out;
+        z-index: 999;
+    }
+
+    .nav-menu.active {
+        display: flex; /* Mostra o menu quando ativo */
+        transform: translateX(0); /* Desliza para a posição visível */
+    }
+
+    .nav-menu a {
+        font-size: 1.8rem; /* Links maiores para facilitar o toque */
+        color: var(--white);
+    }
+
+    .nav-cta {
+        display: none; /* Oculta o botão CTA no menu mobile */
+    }
+
+    .hamburger {
+        display: flex;
+        z-index: 1000; /* Garante que o hambúrguer esteja acima do menu */
+    }
+
+    .hamburger span {
+        background: var(--white); /* Torna o hambúrguer visível no cabeçalho escuro */
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
 }
 
 @media (max-width: 480px) {

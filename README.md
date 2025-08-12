@@ -1,85 +1,62 @@
-# Landing Page Cookitos
+# Cookitos - Landing Page
 
-Uma landing page moderna e responsiva para a marca Cookitos - biscoitos artesanais irresistíveis.
+Uma landing page moderna, responsiva e interativa para a marca de biscoitos artesanais "Cookitos". O projeto foi desenvolvido com foco em uma apresentação visual atraente dos produtos e na fácil interação do usuário.
 
-## Características
+## ✨ Features
 
-- **Design Responsivo**: Funciona perfeitamente em desktop, tablet e mobile
-- **Carrossel de Imagens**: Hero section com carrossel automático das imagens da marca
-- **Seções Completas**: 
-  - Header com navegação
-  - Hero com carrossel
-  - Produtos com os 3 sabores (Nutella, Doce de Leite, Chocolate Amargo)
-  - Benefícios e diferenciais
-  - Testemunhos de clientes
-  - Promoções com contador regressivo
-  - FAQ interativo
-  - Formulário de contato
-  - Footer completo
+- **Design Responsivo**: Perfeita visualização em desktops, tablets e celulares.
+- **Carrossel de Imagens Dinâmico**: Hero section com um carrossel de imagens com efeito de fundo desfocado para maior destaque.
+- **Formulário de Avaliação Interativo**: Clientes podem deixar uma avaliação com um sistema de seleção de estrelas e ver seu comentário aparecer na tela.
+- **Integração com WhatsApp**: O formulário de contato envia a mensagem diretamente para o WhatsApp do vendedor, facilitando a comunicação.
+- **FAQ Accordion**: Seção de perguntas frequentes que se expande para mostrar as respostas.
+- **Efeitos Visuais Modernos**: Animações sutis de entrada e efeitos de hover que melhoram a experiência do usuário.
 
-## Funcionalidades
+## 🛠️ Tecnologias Utilizadas
 
-- **Carrossel Automático**: Troca de slides a cada 5 segundos
-- **Menu Mobile**: Hamburger menu para dispositivos móveis
-- **FAQ Accordion**: Perguntas frequentes expansíveis
-- **Contador Regressivo**: Para promoções por tempo limitado
-- **Botão WhatsApp Flutuante**: Contato direto via WhatsApp
-- **Animações**: Efeitos suaves de entrada e hover
-- **Formulário Funcional**: Validação e feedback visual
+- **HTML5**: Estrutura semântica e moderna.
+- **CSS3**: Estilização avançada com Flexbox, Grid e animações.
+- **JavaScript (Vanilla)**: Utilizado para toda a interatividade da página, incluindo o carrossel, formulários e FAQ.
+- **Node.js (para desenvolvimento)**: Ambiente para rodar o servidor local.
+- **Serve**: Pacote para servir a página localmente de forma simples.
+- **Font Awesome**: Biblioteca de ícones.
+- **Google Fonts**: Para a fonte "Poppins".
 
-## Tecnologias Utilizadas
+## 🚀 Instalação e Execução
 
-- HTML5 semântico
-- CSS3 com Flexbox e Grid
-- JavaScript vanilla (ES6+)
-- Font Awesome para ícones
-- Google Fonts (Poppins)
+Para clonar e rodar este projeto localmente, siga os passos abaixo:
 
-## Estrutura de Arquivos
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/RafaelFrancoD/cookitos-landing.git
+    ```
 
-```
-cookitos-landing/
-├── index.html          # Página principal
-├── styles.css          # Estilos CSS
-├── script.js           # JavaScript
-├── images/             # Pasta de imagens
-│   ├── logo-circular.jpg
-│   ├── logo-cookitos.jpg
-│   ├── hero-carousel-1.jpg
-│   ├── hero-carousel-2.jpg
-│   ├── hero-carousel-3.jpg
-│   ├── tabela-precos.jpg
-│   ├── cookito-nutella.png
-│   ├── cookito-doce-leite.png
-│   └── cookito-chocolate-amargo.png
-└── README.md           # Este arquivo
-```
+2.  **Navegue até a pasta do projeto:**
+    ```bash
+    cd cookitos-landing
+    ```
 
-## Como Usar
+3.  **Instale as dependências de desenvolvimento:**
+    (É necessário ter o Node.js e o npm instalados)
+    ```bash
+    npm install
+    ```
 
-1. Abra o arquivo `index.html` em qualquer navegador moderno
-2. A página é totalmente funcional e responsiva
-3. Para hospedagem, faça upload de todos os arquivos para seu servidor web
+4.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
 
-## Contato da Marca
+5.  **Abra no navegador:**
+    O terminal irá mostrar um endereço local (geralmente `http://localhost:3000`). Abra este link no seu navegador para ver o projeto funcionando.
 
-- **Telefone**: (17) 99151-9103
-- **Instagram**: @cookitooos
-- **WhatsApp**: Disponível através do botão flutuante
+## 🧑‍💻 Autor
 
-## Preços dos Produtos
+- [Rafael Franco](https://github.com/RafaelFrancoD)
 
-- **Cookito Nutella**: R$ 12,00
-- **Cookito Doce de Leite**: R$ 12,00
-- **Cookito Chocolate Amargo**: R$ 8,00
+## 📄 Licença
 
-## Observações
-
-- Todas as imagens foram otimizadas para web
-- O site inclui placeholders para Google Analytics e Facebook Pixel
-- Formulário de contato tem validação básica
-- Design baseado nas cores e identidade visual da marca Cookitos
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
-Desenvolvido com ❤️ para a marca Cookitos
+Desenvolvido para a marca Cookitos.
